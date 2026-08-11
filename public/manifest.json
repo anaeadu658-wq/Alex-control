@@ -1,0 +1,81 @@
+{
+  "name": "Controle Remoto TV Wi-Fi - Leleco",
+  "short_name": "Controle TV",
+  "description": "Aplicativo Android PWA de Controle Remoto Wi-Fi universal para Smart TVs com controle de volume, mudo, ligar/desligar, pad de navegação e comandos HTTP via IP local.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090d16",
+  "theme_color": "#2563eb",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["utilities", "entertainment", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Controle Remoto Wi-Fi Android"
+    },
+    {
+      "src": "/screenshots/desktop-1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Painel de Controle e Configuração de IP"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ligar / Desligar TV",
+      "short_name": "Power",
+      "description": "Ligar ou desligar a TV AOC rapidamente",
+      "url": "/?action=power",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Configuração de IP",
+      "short_name": "Config IP",
+      "description": "Configurar IP fixo da TV na rede Wi-Fi",
+      "url": "/?tab=setup",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mudar para Mudo",
+      "short_name": "Mudo",
+      "description": "Silenciar o áudio da TV instantaneamente",
+      "url": "/?action=mute",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

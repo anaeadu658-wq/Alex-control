@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Controle Leleco Universal",
+  "description": "Aplicativo de controle remoto Wi-Fi universal moderno para TVs AOC e Smart TVs, com controle de volume, canais, navegação e atalhos de streaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
